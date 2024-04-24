@@ -1,6 +1,7 @@
 using Business.Abstracts;
 using Business.Concrates;
 using DataAccess.Abstracts;
+using DataAccess.Concrates.EntityFramework;
 using DataAccess.Concrates.InMemory;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IProductService, ProductManager>();
 builder.Services.AddSingleton<IProductRepository, InMemoryProductRepository>();
 
+//database
+builder.Services.AddDbContext<BaseDbContext>();
 
 var app = builder.Build();
 

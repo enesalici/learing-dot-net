@@ -1,0 +1,7 @@
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\WebApi.AssemblyInfo.cs
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json

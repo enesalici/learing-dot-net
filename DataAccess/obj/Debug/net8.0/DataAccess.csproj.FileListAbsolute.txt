@@ -1,0 +1,6 @@
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
