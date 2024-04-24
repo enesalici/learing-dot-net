@@ -1594,6 +1594,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "DataAccess": "1.0.0",
           "Entities": "1.0.0"
         },
         "compile": {
@@ -1601,6 +1602,19 @@
         },
         "runtime": {
           "bin/placeholder/Business.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
         }
       },
       "Entities/1.0.0": {
@@ -4550,6 +4564,11 @@
       "path": "../App/Business.csproj",
       "msbuildProject": "../App/Business.csproj"
     },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -4559,6 +4578,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Business >= 1.0.0",
+      "DataAccess >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
@@ -4595,6 +4615,9 @@
           "projectReferences": {
             "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\App\\Business.csproj": {
               "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\App\\Business.csproj"
+            },
+            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\DataAccess\\DataAccess.csproj"
             },
             "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Entities\\Entities.csproj"

@@ -1,4 +1,5 @@
 ﻿using Business.Abstracts;
+using DataAccess.Abstracts;
 using Entities;
 using System;
 using System.Collections.Generic;
@@ -12,16 +13,16 @@ namespace Business.Concrates
 {
     public class ProductManager : IProductService
     {
-        List<Product> products;
+        IProductRepository _productRepository;
 
-        public ProductManager()
+        public ProductManager(IProductRepository productRepository)
         {
-            this.products = new List<Product>();
+            _productRepository = productRepository;
         }
 
         public void Add(Product product)
         {
-            products.Add(product);
+            _productRepository.Add(product);   
         }
 
         public void Delete(int id)
@@ -31,7 +32,7 @@ namespace Business.Concrates
 
         public List<Product> GetAll()
         {
-            return this.products;
+           return _productRepository.GetAll();
         }
     }
 }
