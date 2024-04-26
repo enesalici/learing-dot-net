@@ -2,7 +2,8 @@ using Business.Abstracts;
 using Business.Concrates;
 using DataAccess.Abstracts;
 using DataAccess.Concrates.EntityFramework;
-using DataAccess.Concrates.InMemory;
+using DataAccess.Concretes.EntityFramework;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IProductService, ProductManager>();
-builder.Services.AddSingleton<IProductRepository, InMemoryProductRepository>();
+builder.Services.AddSingleton<IProductRepository, EfProductRepository>();
+
 
 //database
 builder.Services.AddDbContext<BaseDbContext>();
