@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8A2C7E-543D-4B9B-8338-FD10772D9A76}|DataAccess\\DataAccess.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\dataaccess\\abstracts\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8A2C7E-543D-4B9B-8338-FD10772D9A76}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstracts\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8A2C7E-543D-4B9B-8338-FD10772D9A76}|DataAccess\\DataAccess.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\dataaccess\\abstracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8A2C7E-543D-4B9B-8338-FD10772D9A76}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\core\\dataaccess\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 207,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\DataAccess\\Abstracts\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstracts\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\DataAccess\\Abstracts\\ICategoryRepository.cs",
+              "RelativeToolTip": "DataAccess\\Abstracts\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:31:19.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\DataAccess\\Abstracts\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstracts\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\DataAccess\\Abstracts\\IProductRepository.cs",
+              "RelativeToolTip": "DataAccess\\Abstracts\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:31:18.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\DataAccess\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\IRepository.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\DataAccess\\IRepository.cs",
+              "RelativeToolTip": "Core\\DataAccess\\IRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:29:39.056Z",
+              "EditorCaption": ""
             }
           ]
         }

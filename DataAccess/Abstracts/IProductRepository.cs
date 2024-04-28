@@ -1,4 +1,5 @@
-﻿using Entities;
+﻿using Core.DataAccess;
+using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstracts
 {
-    public interface IProductRepository
+    public interface IProductRepository : IRepository<Product>
     {
-        List<Product> GetAll();
-        void Add(Product product);
-        void Delete(int id);
+
     }
 }
