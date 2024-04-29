@@ -1,17 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Linq.Expressions;
 
 namespace Core.DataAccess
 {
     public class EfRepositoryBase<TEntity, TContext> : IRepository<TEntity>
-        where TContext : DbContext 
-        where TEntity :  BaseEntity
+        where TContext : DbContext
+        where TEntity : BaseEntity
     {
-        
+
         private readonly TContext Context;
 
         public EfRepositoryBase(TContext context)
@@ -28,12 +24,17 @@ namespace Core.DataAccess
         public void Delete(TEntity entity)
         {
             Context.Remove(entity);
-           Context.SaveChanges();
+            Context.SaveChanges();
         }
 
-        public List<TEntity> GetAll()
+        public List<TEntity> GetAll(Expression<Func<TEntity, bool>>? predicate)
         {
-           return Context.Set<TEntity>().ToList();
+            IQueryable<TEntity> data = Context.Set<TEntity>();
+
+            if (predicate != null)
+                data = data.Where(predicate);
+
+            return data.ToList();
         }
     }
 }

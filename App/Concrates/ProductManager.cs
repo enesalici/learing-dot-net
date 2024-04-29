@@ -22,6 +22,9 @@ namespace Business.Concrates
 
         public void Add(Product product)
         {
+            if (product.Price < 0)
+                throw new Exception("ürün fiyatı 0dan küçük olamaz");
+
             _productRepository.Add(product);   
         }
 
