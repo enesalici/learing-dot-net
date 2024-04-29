@@ -10,6 +10,7 @@ namespace DataAccess.Abstracts
 {
     public interface ICategoryRepository : IRepository<Category>
     {
-        
+        //Irepository generik yapı sayesinde categori türünde oto genarete ediliyorlar
+        //isteğe balı ICategoryRepository'ye özel metodlar yazılabilir 
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.DataAccess;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    public class Category
+    public class Category : BaseEntity
     {
         public Category()
         {
@@ -20,6 +21,6 @@ namespace Entities
 
         public int Id { get; set; }
         public string Name { get; set; }
-        public virtual ICollection<Product> products { get; set;}
+        public virtual ICollection<Product> products { get; set; }
     }
 }

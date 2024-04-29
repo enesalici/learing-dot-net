@@ -10,3 +10,7 @@ C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Entities\obj\Debug\net8.0\E
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Entities\obj\Debug\net8.0\refint\Entities.dll
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Entities\obj\Debug\net8.0\Entities.pdb
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Entities\bin\Debug\net8.0\Core.dll
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Entities\bin\Debug\net8.0\Core.pdb
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Entities\obj\Debug\net8.0\Entities.csproj.Up2Date

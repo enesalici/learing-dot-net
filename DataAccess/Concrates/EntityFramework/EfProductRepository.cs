@@ -1,4 +1,5 @@
-﻿using DataAccess.Abstracts;
+﻿using Core.DataAccess;
+using DataAccess.Abstracts;
 using DataAccess.Concrates.EntityFramework;
 using Entities;
 using System;
@@ -9,21 +10,10 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concretes.EntityFramework
 {
-    public class EfProductRepository : IProductRepository
+    public class EfProductRepository : EfRepositoryBase<Product, BaseDbContext>, IProductRepository
     {
-        public void Add(Product product)
+        public EfProductRepository(BaseDbContext context) : base(context)
         {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Product> GetAll()
-        {
-            throw new NotImplementedException();
         }
     }
 }

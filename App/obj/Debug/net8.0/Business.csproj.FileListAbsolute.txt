@@ -16,3 +16,5 @@ C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\App\obj\Debug\net8.0\Busine
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\App\obj\Debug\net8.0\refint\Business.dll
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\App\obj\Debug\net8.0\Business.pdb
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\App\obj\Debug\net8.0\ref\Business.dll
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\App\bin\Debug\net8.0\Core.dll
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\App\bin\Debug\net8.0\Core.pdb
