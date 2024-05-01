@@ -18,9 +18,9 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
-        public List<Product> GetAll()
+        public async Task<List<Product>> GetAll()
         {
-            return _productService.GetAll();
+            return await _productService.GetAll();
         }
 
         [HttpPost]
@@ -29,6 +29,19 @@ namespace WebApi.Controllers
             _productService.Add(product);
         }
 
-        
+        [HttpGet("sync")]
+        public string Sync() 
+        {
+            Thread.Sleep(5000); 
+            return "SYNC ENDPOINT";
+        }
+
+        [HttpGet("Async")]
+        public async Task<string> Async()
+        {
+            Task.Delay(5000);
+            return "ASYNC ENDPOINT";
+        }
+
     }
 }

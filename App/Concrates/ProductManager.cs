@@ -20,12 +20,12 @@ namespace Business.Concrates
             _productRepository = productRepository;
         }
 
-        public void Add(Product product)
+        public async void Add(Product product)
         {
             if (product.Price < 0)
                 throw new Exception("ürün fiyatı 0dan küçük olamaz");
 
-            _productRepository.Add(product);   
+           await _productRepository.AddAsync(product);   
         }
 
         public void Delete(int id)

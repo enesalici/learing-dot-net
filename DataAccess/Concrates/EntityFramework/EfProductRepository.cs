@@ -15,5 +15,7 @@ namespace DataAccess.Concretes.EntityFramework
         public EfProductRepository(BaseDbContext context) : base(context)
         {
         }
+
+
     }
 }
