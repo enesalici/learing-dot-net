@@ -1,9 +1,10 @@
 using Business.Abstracts;
 using Business.Concrates;
+using Core.crossCuttingConcerns.Exceptions;
 using DataAccess.Abstracts;
 using DataAccess.Concrates.EntityFramework;
 using DataAccess.Concretes.EntityFramework;
-
+using Core.crossCuttingConcerns.Exceptions.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,9 +17,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProductService, ProductManager>();
 builder.Services.AddScoped<IProductRepository, EfProductRepository>();
 
-
 //database
 builder.Services.AddDbContext<BaseDbContext>();
+
 
 var app = builder.Build();
 
@@ -28,6 +29,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//extensions metod kullanarak projeyi tek satýrda dahil ettik
+app.ConfigureExceptionMiddlewareExtensions();
 
 app.UseHttpsRedirection();
 

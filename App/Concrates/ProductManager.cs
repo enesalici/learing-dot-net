@@ -1,8 +1,10 @@
 ﻿using Business.Abstracts;
+using Core.crossCuttingConcerns.Exceptions.Types;
 using DataAccess.Abstracts;
 using Entities;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data.SqlTypes;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
@@ -20,22 +22,39 @@ namespace Business.Concrates
             _productRepository = productRepository;
         }
 
-        public async void Add(Product product)
+        public async Task Add(Product product)
         {
-            if (product.Price < 0)
-                throw new Exception("ürün fiyatı 0dan küçük olamaz");
 
-           await _productRepository.AddAsync(product);   
+            if (product.Price < 0)
+                throw new BusinessException("Ürün fiyatı 0'dan küçük olamaz.");
+
+            Product? productWithSameName = await _productRepository.GetAsync(p => p.Name == product.Name);
+            if (productWithSameName is not null)
+                throw new BusinessException("Aynı isimde 2. ürün eklenemez.");
+
+            await _productRepository.AddAsync(product);
         }
 
         public void Delete(int id)
         {
-            Console.Write("silme işlemi tamamnaldı");
+            Product? productToDelete = _productRepository.Get(i => i.Id == id);
+            throw new NotImplementedException();
         }
 
-        public List<Product> GetAll()
+        public async Task<List<Product>> GetAll()
         {
-           return _productRepository.GetAll();
+            // Cacheleme?
+            return await _productRepository.GetListAsync();
+        }
+
+        public Product GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Product product)
+        {
+            throw new NotImplementedException();
         }
     }
 }

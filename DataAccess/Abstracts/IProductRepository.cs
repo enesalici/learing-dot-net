@@ -12,6 +12,5 @@ namespace DataAccess.Abstracts
     {
         //Irepository generik yapı sayesinde categori türünde oto genarete ediliyorlar
         //isteğe balı IProductRepository'ye özel metodlar yazılabilir 
-        
     }
 }

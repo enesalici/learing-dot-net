@@ -23,25 +23,21 @@ namespace Core.DataAccess
             Context.SaveChanges();
         }
 
-        public async Task AddAsync(TEntity entity)
-        {
-            await Context.AddAsync(entity);
-            await Context.SaveChangesAsync();
-        }
-
         public void Delete(TEntity entity)
         {
             Context.Remove(entity);
             Context.SaveChanges();
         }
 
-        public async Task DeleteAsync(TEntity entity)
+        public void Update(TEntity entity)
         {
-            Context.Remove(entity);
-            await Context.SaveChangesAsync();   
+            Context.Update(entity);
+            Context.SaveChanges();
         }
 
-        public List<TEntity> GetAll(Expression<Func<TEntity, bool>>? predicate = null)
+        // Filter ✅
+        // OrderBy ?
+        public List<TEntity> GetList(Expression<Func<TEntity, bool>>? predicate = null)
         {
             IQueryable<TEntity> data = Context.Set<TEntity>();
 
@@ -51,7 +47,23 @@ namespace Core.DataAccess
             return data.ToList();
         }
 
-        public async Task<List<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>>? predicate = null)
+        // Filter ✅
+        // OrderBy ?
+        public TEntity? Get(Expression<Func<TEntity, bool>> predicate)
+        {
+            IQueryable<TEntity> data = Context.Set<TEntity>();
+
+            return data.FirstOrDefault(predicate);
+        }
+
+        public async Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate)
+        {
+            IQueryable<TEntity> data = Context.Set<TEntity>();
+
+            return await data.FirstOrDefaultAsync(predicate);
+        }
+
+        public async Task<List<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null)
         {
             IQueryable<TEntity> data = Context.Set<TEntity>();
 
@@ -61,6 +73,24 @@ namespace Core.DataAccess
             return await data.ToListAsync();
         }
 
-        
+        public async Task AddAsync(TEntity entity)
+        {
+            await Context.AddAsync(entity);
+            await Context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(TEntity entity)
+        {
+            Context.Update(entity);
+            await Context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(TEntity entity)
+        {
+            Context.Remove(entity);
+            await Context.SaveChangesAsync();
+        }
+
+
     }
 }

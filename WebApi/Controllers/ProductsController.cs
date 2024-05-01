@@ -24,9 +24,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost]
-        public void Add(Product product)
+        public async Task Add(Product product)
         {
-            _productService.Add(product);
+           await _productService.Add(product);
         }
 
         [HttpGet("sync")]
