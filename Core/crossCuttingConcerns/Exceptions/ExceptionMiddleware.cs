@@ -26,24 +26,20 @@ namespace Core.crossCuttingConcerns.Exceptions
                 context.Response.StatusCode = StatusCodes.Status400BadRequest;
 
 
-                if(exception is BusinessException)
+                if (exception is BusinessException)
                 {
                     ProblemDetails problemDetails = new ProblemDetails();
                     problemDetails.Title = "business rule validation";
                     problemDetails.Detail = exception.Message;
                     problemDetails.Type = "BusinessException";
                     await context.Response.WriteAsync(JsonSerializer.Serialize(problemDetails));
-                    
+
                 }
                 else
                 {
                     context.Response.StatusCode = StatusCodes.Status500InternalServerError;
 
                 }
-                
-
-
-
             }
         }
     }

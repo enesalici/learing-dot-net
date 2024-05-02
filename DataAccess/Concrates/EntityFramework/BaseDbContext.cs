@@ -9,7 +9,7 @@ namespace DataAccess.Concrates.EntityFramework
         public DbSet<Product> Products { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB; Database=DENEME; Trusted_Connection=True");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB; Database=EnesDb; Trusted_Connection=True");
             base.OnConfiguring(optionsBuilder);
         }
 
@@ -31,12 +31,12 @@ namespace DataAccess.Concrates.EntityFramework
             //Category category2 = new Category(200, "elektronik");
             //Product product1 = new Product(1, "tüşört", "açıklama", 500, 50, 100);
 
-            //modelBuilder.Entity<Category>().HasData(category1, category2);
+            //modelBuilder.Entity<Category>().HasData(category1);
             //modelBuilder.Entity<Product>().HasData(product1);
 
             base.OnModelCreating(modelBuilder);
         }
 
-
+            
     }
 }

@@ -143,3 +143,4 @@ C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\ref
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\Core.dll
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\Core.pdb
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\AutoMapper.dll

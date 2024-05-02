@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zlNnY7ev4KklAAzYR27OfsB4XXxe+PIVAlswBumlm0/YIODrNFhJ3QIX2ezZVqNHZgE+n5KwjPRp6KB/zmVirg==",
+  "dgSpecHash": "LgAuurIGXk82e0iReysefPHiaocNW53vXpgFNy+lM5dmpKA5ubWnSRc4IIftuOmBCDm84GXtZO7gnB8oZPW3tQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\App\\Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vayne\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\microsoft.aspnetcore.http\\2.1.34\\microsoft.aspnetcore.http.2.1.34.nupkg.sha512",

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20240501190534_yeniStunlarEklendi")]
-    partial class yeniStunlarEklendi
+    [Migration("20240502114430_YeniVeritabanı")]
+    partial class YeniVeritabanı
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

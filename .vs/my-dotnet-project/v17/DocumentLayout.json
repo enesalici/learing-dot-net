@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\core\\crosscuttingconcerns\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\app\\mappingprofiles\\productmappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|solutionrelative:app\\mappingprofiles\\productmappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\core\\crosscuttingconcerns\\exceptions\\httpproblemdetails\\problemdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\exceptions\\httpproblemdetails\\problemdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\app\\abstracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|solutionrelative:app\\abstracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\app\\concrates\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|solutionrelative:app\\concrates\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\app\\dtos\\product\\producttolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|solutionrelative:app\\dtos\\product\\producttolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\app\\dtos\\product\\producttoadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|solutionrelative:app\\dtos\\product\\producttoadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 204,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\crossCuttingConcerns\\Exceptions\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "Core\\crossCuttingConcerns\\Exceptions\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\crossCuttingConcerns\\Exceptions\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "Core\\crossCuttingConcerns\\Exceptions\\ExceptionMiddleware.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCQAAAARAAAA",
+              "DocumentIndex": 3,
+              "Title": "ProductToListDto.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Dtos\\Product\\ProductToListDto.cs",
+              "RelativeDocumentMoniker": "App\\Dtos\\Product\\ProductToListDto.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Dtos\\Product\\ProductToListDto.cs",
+              "RelativeToolTip": "App\\Dtos\\Product\\ProductToListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T19:48:00.7Z",
+              "WhenOpened": "2024-05-02T15:48:41.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProblemDetails.cs",
-              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\crossCuttingConcerns\\Exceptions\\HttpProblemDetails\\ProblemDetails.cs",
-              "RelativeDocumentMoniker": "Core\\crossCuttingConcerns\\Exceptions\\HttpProblemDetails\\ProblemDetails.cs",
-              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\crossCuttingConcerns\\Exceptions\\HttpProblemDetails\\ProblemDetails.cs",
-              "RelativeToolTip": "Core\\crossCuttingConcerns\\Exceptions\\HttpProblemDetails\\ProblemDetails.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Abstracts\\IProductService.cs",
+              "RelativeDocumentMoniker": "App\\Abstracts\\IProductService.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Abstracts\\IProductService.cs",
+              "RelativeToolTip": "App\\Abstracts\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T19:46:39.856Z",
+              "WhenOpened": "2024-05-02T15:44:20.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductMappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\MappingProfiles\\ProductMappingProfiles.cs",
+              "RelativeDocumentMoniker": "App\\MappingProfiles\\ProductMappingProfiles.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\MappingProfiles\\ProductMappingProfiles.cs",
+              "RelativeToolTip": "App\\MappingProfiles\\ProductMappingProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T15:40:34.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductToAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Dtos\\Product\\ProductToAddDto.cs",
+              "RelativeDocumentMoniker": "App\\Dtos\\Product\\ProductToAddDto.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Dtos\\Product\\ProductToAddDto.cs",
+              "RelativeToolTip": "App\\Dtos\\Product\\ProductToAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T15:38:19.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Concrates\\ProductManager.cs",
+              "RelativeDocumentMoniker": "App\\Concrates\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Concrates\\ProductManager.cs",
+              "RelativeToolTip": "App\\Concrates\\ProductManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T15:32:31.827Z",
               "EditorCaption": ""
             }
           ]

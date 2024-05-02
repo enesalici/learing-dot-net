@@ -1,36 +1,40 @@
-﻿using Business.Abstracts;
+﻿using AutoMapper;
+using Business.Abstracts;
+using Business.Dtos.Product;
 using Core.crossCuttingConcerns.Exceptions.Types;
 using DataAccess.Abstracts;
 using Entities;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Data.SqlTypes;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.Concrates
 {
     public class ProductManager : IProductService
     {
         IProductRepository _productRepository;
+        IMapper _mapper;
 
-        public ProductManager(IProductRepository productRepository)
+        public ProductManager(IProductRepository productRepository, IMapper mapper)
         {
             _productRepository = productRepository;
+            _mapper = mapper;
+
         }
 
-        public async Task Add(Product product)
+        public async Task Add(ProductToAddDto dto)
         {
-
-            if (product.Price < 0)
+            if (dto.Price < 0)
                 throw new BusinessException("Ürün fiyatı 0'dan küçük olamaz.");
 
-            Product? productWithSameName = await _productRepository.GetAsync(p => p.Name == product.Name);
+            Product? productWithSameName = await _productRepository.GetAsync(p => p.Name == dto.Name);
             if (productWithSameName is not null)
                 throw new BusinessException("Aynı isimde 2. ürün eklenemez.");
+
+            //Product product = new();
+            //product.Name = dto.Name;
+            //product.Price = dto.Price;
+            //product.Stock = dto.Stock;
+            //product.CategoryId = dto.CategoryId;
+
+            Product product = _mapper.Map<Product>(dto);
 
             await _productRepository.AddAsync(product);
         }
@@ -38,13 +42,14 @@ namespace Business.Concrates
         public void Delete(int id)
         {
             Product? productToDelete = _productRepository.Get(i => i.Id == id);
-            throw new NotImplementedException();
+
         }
 
-        public async Task<List<Product>> GetAll()
+        public async Task<List<ProductToListDto>> GetAll()
         {
-            // Cacheleme?
-            return await _productRepository.GetListAsync();
+            List<Product> products = await _productRepository.GetListAsync();
+            List<ProductToListDto> response = _mapper.Map<List<ProductToListDto>>(products);
+            return response;
         }
 
         public Product GetById(int id)
