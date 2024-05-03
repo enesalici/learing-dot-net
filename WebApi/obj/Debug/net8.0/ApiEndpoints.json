@@ -1,26 +1,6 @@
 [
   {
     "ContainingType": "WebApi.Controllers.ProductsController",
-    "Method": "GetAll",
-    "RelativePath": "api/Products",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[Business.Dtos.Product.ProductToListDto, Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApi.Controllers.ProductsController",
     "Method": "Add",
     "RelativePath": "api/Products",
     "HttpMethod": "POST",
@@ -28,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "Business.Dtos.Product.ProductToAddDto",
+        "Name": "command",
+        "Type": "Business.Feature.Products.Commands.Create.CreateProductCommand",
         "IsRequired": true
       }
     ],
@@ -37,46 +17,6 @@
       {
         "Type": "System.Void",
         "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApi.Controllers.ProductsController",
-    "Method": "Async",
-    "RelativePath": "api/Products/Async",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApi.Controllers.ProductsController",
-    "Method": "Sync",
-    "RelativePath": "api/Products/sync",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
         "StatusCode": 200
       }
     ]

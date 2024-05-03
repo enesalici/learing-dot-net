@@ -1,8 +1,7 @@
 ﻿using Business.Abstracts;
-using Business.Concrates;
-using Business.Dtos.Product;
-using Entities;
-using Microsoft.AspNetCore.Http;
+using Business.Feature.Products.Commands.Create;
+using Business.Feature.Products.Queries.GetList;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
@@ -11,38 +10,30 @@ namespace WebApi.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        IProductService _productService;
+        private readonly IProductService _productService;
+        private readonly IMediator _mediator;
 
-        public ProductsController(IProductService productService)
+        public ProductsController(IProductService productService, IMediator mediator)
         {
             _productService = productService;
+            _mediator = mediator;
         }
 
+        [HttpPost] 
+        public async Task<IActionResult> Add([FromBody] CreateProductCommand command)
+        {
+            await _mediator.Send(command);
+
+            return Created();
+        }
         [HttpGet]
-        public async Task<List<ProductToListDto>> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] GetListQuery query)
         {
-            return await _productService.GetAll();
+           var result = await _mediator.Send(query);
+
+            return Ok(result);
         }
 
-        [HttpPost]
-        public async Task Add([FromBody] ProductToAddDto dto)
-        {
-            await _productService.Add(dto);
-        }
-
-        [HttpGet("sync")]
-        public string Sync() 
-        {
-            Thread.Sleep(5000); 
-            return "SYNC ENDPOINT";
-        }
-
-        [HttpGet("Async")]
-        public async Task<string> Async()
-        {
-            Task.Delay(5000);
-            return "ASYNC ENDPOINT";
-        }
-
+         
     }
 }

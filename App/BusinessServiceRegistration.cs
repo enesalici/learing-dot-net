@@ -10,7 +10,11 @@ namespace Business
         public static IServiceCollection AddBusinessServices(this IServiceCollection services)
         {
             services.AddScoped<IProductService, ProductManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddMediatR(config => {
+                config.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly());
+            });
 
 
             return services;

@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Business.Dtos.Product
+namespace Business.Feature.Products.Dtos
 {
-    public class ProductToListDto
+    public class GetAllProductResponse
     {
-        public int Id { get; set; }
+        public int Id {  get; set; }
         public string Name { get; set; }
-        public double Price { get; set; }
     }
 }
