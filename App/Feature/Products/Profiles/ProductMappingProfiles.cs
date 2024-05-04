@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Business.Feature.Products.Commands.Create;
+using Business.Feature.Products.Commands.Update;
 using Business.Feature.Products.Dtos;
 using Entities;
 using System;
@@ -15,7 +16,11 @@ namespace Business.Feature.Products.Profiles
         public ProductMappingProfiles()
         {
             CreateMap<Product, CreateProductCommand>().ReverseMap();
-            CreateMap<Product, GetAllProductResponse>().ReverseMap();  
+            CreateMap<Product, GetAllProductResponse>().ReverseMap();
+            CreateMap<Product, GetByIdProductResponse>().ReverseMap();
+            CreateMap<Product, UpdateProductResponse>().ReverseMap();
+            CreateMap<Product, UpdateProductCommand>().ReverseMap();
+
 
         }
     }
