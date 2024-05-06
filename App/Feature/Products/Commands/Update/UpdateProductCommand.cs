@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Business.Abstracts;
 using Business.Feature.Products.Dtos;
-using Core.crossCuttingConcerns.Exceptions.Types;
+using Core.CrossCuttingConcerns.Exceptions.Types;
 using DataAccess.Abstracts;
 using Entities;
 using MediatR;

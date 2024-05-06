@@ -4,25 +4,20 @@ using Core.crossCuttingConcerns.Exceptions;
 using DataAccess.Abstracts;
 using DataAccess.Concrates.EntityFramework;
 using DataAccess.Concretes.EntityFramework;
-using Core.crossCuttingConcerns.Exceptions.Extensions;
+using Core.CrossCuttingConcerns.Exceptions.Extensions;
 using System.Reflection;
 using Business;
 using DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
 //extensions metod katmanlar kendi baðýmlýklarýný enjekte ediyor
 builder.Services.AddBusinessServices();
 builder.Services.AddDataAccessServices();
 
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 
 var app = builder.Build();
@@ -35,7 +30,7 @@ if (app.Environment.IsDevelopment())
 }
 
 //extensions metod kullanarak projeyi tek satýrda dahil ettik
-//app.ConfigureExceptionMiddlewareExtensions();
+app.ConfigureExceptionMiddlewareExtensions();
 
 app.UseHttpsRedirection();
 

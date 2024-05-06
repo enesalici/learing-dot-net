@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Usb8izNZ3XWQA3MuBpVPjwGwZaUXv7pvcHTzX1QL+cSyhLer9UMV21MnHKVsmLOIhaRiWKcciYWffGwGsDUwtQ==",
+  "dgSpecHash": "F8FMdYJY9jTdVEKzVEmaut9q9UMfutssAILyQ78IxwG7L01HkMEMthKCYhk03iOs5O43S+2Ryyzj/ulKP14z3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vayne\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\vayne\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
+    "C:\\Users\\vayne\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\vayne\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.1\\fluentvalidation.dependencyinjectionextensions.11.9.1.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

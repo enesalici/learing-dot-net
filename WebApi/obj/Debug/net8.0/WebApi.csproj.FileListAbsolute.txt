@@ -146,3 +146,6 @@ C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\obj\Debug\net8.0\Web
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\MediatR.dll
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

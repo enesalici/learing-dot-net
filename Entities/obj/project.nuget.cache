@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "L6H9PoLBDYccKSQlJ1HUgrcaVGIH5wLAwWLLQQ1SPtF8HuI3k6I/V79Frpu/ifvtb8j2QlyiiLCm20I//Slluw==",
+  "dgSpecHash": "yot3KMQ9S4xM5K9YUYTsulUIhTGQ5e3nlHp8dMn0j220XDFDmA0HOHjXfMsqckUcac8PjOM0R+UP9Cnfsvf+jQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vayne\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
+    "C:\\Users\\vayne\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\vayne\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\microsoft.aspnetcore.http\\2.1.34\\microsoft.aspnetcore.http.2.1.34.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.1.1\\microsoft.aspnetcore.http.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.1.1\\microsoft.aspnetcore.http.features.2.1.1.nupkg.sha512",

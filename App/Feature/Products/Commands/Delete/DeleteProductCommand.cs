@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Core.crossCuttingConcerns.Exceptions.Types;
+using Core.CrossCuttingConcerns.Exceptions.Types;
 using DataAccess.Abstracts;
 using Entities;
 using MediatR;
