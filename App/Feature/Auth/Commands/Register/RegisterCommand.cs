@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
+using DataAccess.Abstracts;
 using Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,19 +21,28 @@ namespace Business.Feature.Auth.Commands.Register
         public class RegisterCommandHandler : IRequestHandler<RegisterCommand>
         {
             private readonly IMapper _mapper;
+            private readonly IUserRepository _userRepository;
 
-            public RegisterCommandHandler(IMapper mapper)
+            public RegisterCommandHandler(IMapper mapper, IUserRepository userRepository)
             {
                 _mapper = mapper;
+                _userRepository = userRepository;
             }
 
-            public Task Handle(RegisterCommand request, CancellationToken cancellationToken)
+            public async Task Handle(RegisterCommand request, CancellationToken cancellationToken)
             {
                 User user = _mapper.Map<User>(request);
-                user.PasswordHash = null;
-                user.PasswordSalt = null;
 
-                throw new NotImplementedException();
+                using HMACSHA512 hmac = new HMACSHA512();
+
+                
+
+
+                user.PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(request.Password));
+                user.PasswordSalt = hmac.Key;
+
+
+                await _userRepository.AddAsync(user);
             } 
         }
     }

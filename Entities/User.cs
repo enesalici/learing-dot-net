@@ -12,6 +12,15 @@ namespace Entities
     {
         public User() { }
 
+        public User(int ıd, string firstName, string lastName, string email, byte[] passwordHash, byte[] passwordSalt)
+        {
+            Id = ıd;
+            FirstName = firstName;
+            LastName = lastName;
+            Email = email;
+            PasswordHash = passwordHash;
+            PasswordSalt = passwordSalt;
+        }
 
         public int Id { get; set; }
         public string FirstName { get; set; }
