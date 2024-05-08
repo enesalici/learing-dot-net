@@ -1,7 +1,9 @@
 ﻿using Core.CrossCuttingConcerns.Exceptions.Types;
+using Core.Utilities.Hashing;
 using DataAccess.Abstracts;
 using Entities;
 using MediatR;
+using Microsoft.AspNetCore.Identity;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -31,13 +33,8 @@ namespace Business.Feature.Auth.Commands.Login
                     throw new BusinessException("Giriş başarısız");
                 }
 
-                using HMACSHA512 hmac = new HMACSHA512(user.PasswordSalt);
-
-                hmac.ComputeHash(Encoding.UTF8.GetBytes(request.Password));
-
-                byte[] computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(request.Password));
-
-                bool isPasswordMatch = computedHash.SequenceEqual(user.PasswordHash);
+                bool isPasswordMatch = HashingHelper.VerifyPasswordHash(request.Password,
+                    user.PasswordHash, user.PasswordSalt);
 
                 if (!isPasswordMatch)
                 {

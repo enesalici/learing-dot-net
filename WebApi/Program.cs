@@ -8,6 +8,7 @@ using Core.CrossCuttingConcerns.Exceptions.Extensions;
 using System.Reflection;
 using Business;
 using DataAccess;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        //jwt config
+        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+        {   
+            //SECRET KEY
+            
+        };
+    });
 
 var app = builder.Build();
 
@@ -33,6 +44,8 @@ if (app.Environment.IsDevelopment())
 app.ConfigureExceptionMiddlewareExtensions();
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

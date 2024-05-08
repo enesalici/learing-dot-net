@@ -1,13 +1,8 @@
 ﻿using AutoMapper;
+using Core.Utilities.Hashing;
 using DataAccess.Abstracts;
 using Entities;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.Feature.Auth.Commands.Register
 {
@@ -33,17 +28,15 @@ namespace Business.Feature.Auth.Commands.Register
             {
                 User user = _mapper.Map<User>(request);
 
-                using HMACSHA512 hmac = new HMACSHA512();
+                byte[] passwordHast, passwordSalt;
 
-                
+                HashingHelper.CreatePasswordHash(request.Password, out passwordHast, out passwordSalt);
 
-
-                user.PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(request.Password));
-                user.PasswordSalt = hmac.Key;
-
+                user.PasswordSalt = passwordSalt;
+                user.PasswordHash = passwordHast;
 
                 await _userRepository.AddAsync(user);
-            } 
+            }
         }
     }
 }

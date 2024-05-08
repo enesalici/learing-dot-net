@@ -1,4 +1,5 @@
-﻿using Business.Feature.Auth.Commands.Register;
+﻿using Business.Feature.Auth.Commands.Login;
+using Business.Feature.Auth.Commands.Register;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -23,7 +24,12 @@ namespace WebApi.Controllers
             return Created();  
         }
 
-
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login([FromBody] LoginCommand loginCommand)
+        {
+            await _mediator.Send(loginCommand);
+            return Created();
+        }
 
 
     }   
