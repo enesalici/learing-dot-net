@@ -1,7 +1,7 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
+.vs
 .jfm
 /App/Business.csproj
 /.vs/my-dotnet-project/FileContentIndex/f9dd59f5-37a7-4909-8b22-fb5b71a72d1b.vsidx

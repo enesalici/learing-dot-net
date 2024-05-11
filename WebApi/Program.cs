@@ -9,6 +9,14 @@ using System.Reflection;
 using Business;
 using DataAccess;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Identity;
+using WebApi;
+using TokenOptions = Core.Utilities.JWT.TokenOptions;
+using Core.Utilities.Encryption;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,15 +27,27 @@ builder.Services.AddDataAccessServices();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+ 
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+var getValue = builder.Configuration.GetSection("TokenOptions").GetValue<string>("SecurityKey");
+
+TokenOptions? tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+
+builder.Services.
+    AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
         //jwt config
         options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
-        {   
-            //SECRET KEY
-            
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = tokenOptions.Issuer,
+            ValidAudience = tokenOptions.Audience,
+            IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.Issuer),
         };
     });
 
