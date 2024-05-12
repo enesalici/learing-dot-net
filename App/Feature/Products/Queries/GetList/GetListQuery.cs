@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Business.Feature.Products.Queries.GetList
 {
-    public class GetListQuery : IRequest<List<GetAllProductResponse>>
+    public class GetListQuery : IRequest<List<GetAllProductResponse>> 
     {
         public int Page { get; set; }
         public int PageSize { get; set; }

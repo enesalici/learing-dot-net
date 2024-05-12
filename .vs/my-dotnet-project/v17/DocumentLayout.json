@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\app\\feature\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|solutionrelative:app\\feature\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC096EA5-BD04-4191-BCB5-E684B74815FD}|WebApi\\WebApi.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC096EA5-BD04-4191-BCB5-E684B74815FD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1130,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,32 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\WebApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\WebApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:01:15.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginCommand.cs",
-              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Feature\\Auth\\Commands\\Login\\LoginCommand.cs",
-              "RelativeDocumentMoniker": "App\\Feature\\Auth\\Commands\\Login\\LoginCommand.cs",
-              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Feature\\Auth\\Commands\\Login\\LoginCommand.cs",
-              "RelativeToolTip": "App\\Feature\\Auth\\Commands\\Login\\LoginCommand.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwC4AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:00:04.653Z",
-              "EditorCaption": ""
             }
           ]
         },

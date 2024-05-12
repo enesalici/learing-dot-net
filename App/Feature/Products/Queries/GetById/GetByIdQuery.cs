@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Business.Feature.Products.Queries.GetById
 {
-    public class GetByIdQuery : IRequest<GetByIdProductResponse>
+    public class GetByIdQuery : IRequest<GetByIdProductResponse> , ISecuredRequest
     {
          public int Id { get; set; }
 

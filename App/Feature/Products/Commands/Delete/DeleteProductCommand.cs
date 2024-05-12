@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Core.Application.Pipelines.Authorization;
 using Core.CrossCuttingConcerns.Exceptions.Types;
 using DataAccess.Abstracts;
 using Entities;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Business.Feature.Products.Commands.Delete
 {
-    public class DeleteProductCommand : IRequest
+    public class DeleteProductCommand : IRequest, ISecuredRequest
     {
         public int Id { get; set; }
 

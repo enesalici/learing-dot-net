@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Business.Abstracts;
+using Core.Application.Pipelines.Authorization;
 using Core.CrossCuttingConcerns.Exceptions.Types;
 using DataAccess.Abstracts;
 using Entities;
@@ -11,7 +12,7 @@ using ValidationException = Core.CrossCuttingConcerns.Exceptions.Types.Validatio
 
 namespace Business.Feature.Products.Commands.Create
 {
-    public class CreateProductCommand : IRequest<CreateProductResponse>
+    public class CreateProductCommand : IRequest<CreateProductResponse>, ISecuredRequest
     {
         public string Name { get; set; }
         public int Stock { get; set; }

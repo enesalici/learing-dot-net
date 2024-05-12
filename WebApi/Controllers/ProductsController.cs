@@ -15,7 +15,6 @@ namespace WebApi.Controllers
     {
         private readonly IProductService _productService;
         private readonly IMediator _mediator;
-
         public ProductsController(IProductService productService, IMediator mediator)
         {
             _productService = productService;
@@ -32,7 +31,8 @@ namespace WebApi.Controllers
 
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] GetListQuery query)
-        {
+        
+
            var result = await _mediator.Send(query);
 
             return Ok(result);
