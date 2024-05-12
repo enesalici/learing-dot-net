@@ -149,3 +149,4 @@ C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\Med
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\core\\utilities\\jwt\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|solutionrelative:core\\utilities\\jwt\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\app\\feature\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EE9A67-6B8B-4D9F-9D8F-0EC1F5BA5A32}|App\\Business.csproj|solutionrelative:app\\feature\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC096EA5-BD04-4191-BCB5-E684B74815FD}|WebApi\\WebApi.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC096EA5-BD04-4191-BCB5-E684B74815FD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\core\\utilities\\encryption\\securitykeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C3E3147-0B55-43FA-BB27-93FE84B166C6}|Core\\Core.csproj|solutionrelative:core\\utilities\\encryption\\securitykeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC096EA5-BD04-4191-BCB5-E684B74815FD}|WebApi\\WebApi.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DC096EA5-BD04-4191-BCB5-E684B74815FD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DC096EA5-BD04-4191-BCB5-E684B74815FD}|WebApi\\WebApi.csproj|c:\\users\\vayne\\onedrive\\masa\u00FCst\u00FC\\my-dotnet-project\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC096EA5-BD04-4191-BCB5-E684B74815FD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,70 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1130,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAADEAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T12:58:15.436Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\WebApi\\appsettings.json",
-              "RelativeToolTip": "WebApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-09T13:33:33.82Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\Utilities\\JWT\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\JWT\\JwtHelper.cs",
-              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\Utilities\\JWT\\JwtHelper.cs",
-              "RelativeToolTip": "Core\\Utilities\\JWT\\JwtHelper.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T14:08:54.831Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SecurityKeyHelper.cs",
-              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\Utilities\\Encryption\\SecurityKeyHelper.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Encryption\\SecurityKeyHelper.cs",
-              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\Core\\Utilities\\Encryption\\SecurityKeyHelper.cs",
-              "RelativeToolTip": "Core\\Utilities\\Encryption\\SecurityKeyHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T18:33:56.221Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -98,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:01:15.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Feature\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "App\\Feature\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\vayne\\OneDrive\\Masa\u00FCst\u00FC\\my-dotnet-project\\App\\Feature\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "App\\Feature\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwC4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:00:04.653Z",
+              "EditorCaption": ""
             }
           ]
         },

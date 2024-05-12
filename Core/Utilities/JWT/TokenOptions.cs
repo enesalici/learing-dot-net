@@ -1,4 +1,4 @@
-﻿namespace  Core.Utilities.JWT;
+﻿namespace Core.Utilities.JWT;
 
 public class TokenOptions
 {

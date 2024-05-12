@@ -16,22 +16,26 @@ using Microsoft.AspNetCore.Identity;
 using WebApi;
 using TokenOptions = Core.Utilities.JWT.TokenOptions;
 using Core.Utilities.Encryption;
+using Core;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
+TokenOptions? tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+
+
 //extensions metod katmanlar kendi baðýmlýklarýný enjekte ediyor
 builder.Services.AddBusinessServices();
 builder.Services.AddDataAccessServices();
+builder.Services.AddCoreServices(tokenOptions);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
- 
+
 
 var getValue = builder.Configuration.GetSection("TokenOptions").GetValue<string>("SecurityKey");
 
-TokenOptions? tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
 builder.Services.
     AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -44,10 +48,9 @@ builder.Services.
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-
             ValidIssuer = tokenOptions.Issuer,
             ValidAudience = tokenOptions.Audience,
-            IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.Issuer),
+            IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
         };
     });
 

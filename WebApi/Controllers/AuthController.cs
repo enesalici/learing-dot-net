@@ -27,8 +27,8 @@ namespace WebApi.Controllers
         [HttpPost("Login")]
         public async Task<IActionResult> Login([FromBody] LoginCommand loginCommand)
         {
-            await _mediator.Send(loginCommand);
-            return Created();
+           var response = await _mediator.Send(loginCommand);
+            return Ok(response);
         }
 
 
