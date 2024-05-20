@@ -4768,11 +4768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\vayne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4789,14 +4789,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\App\\Business.csproj": {
-              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\App\\Business.csproj"
+            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\App\\Business.csproj": {
+              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\App\\Business.csproj"
             },
-            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Entities\\Entities.csproj"
+            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Entities\\Entities.csproj"
             }
           }
         }

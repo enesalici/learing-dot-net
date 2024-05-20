@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Core\\Core.csproj": {}
+    "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Core\\Core.csproj": {
+    "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\vayne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Core\\obj\\",
+        "outputPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vayne\\AppData\\Roaming\\NuGet\\NuGet.Config",

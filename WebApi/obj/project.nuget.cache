@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "76AU9ekv3uF0Qv9NfW1Jd5eRrSSxNngezJoBKVpmrZxydtk0ced9hV3cZ/9bcziaNClY96AFBwympIDQRETAcw==",
+  "dgSpecHash": "ffPi+F6rmNCNG0qJlAC4wdBlVFMW1kO/7W8KYKrdL1MA+14lsKQjTYY+Nu0/i4sXwHkVXtx+AwVjb4l7blvVvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vayne\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

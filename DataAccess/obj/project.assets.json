@@ -4189,11 +4189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\vayne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4210,11 +4210,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Core\\Core.csproj"
+            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Core\\Core.csproj"
             },
-            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Entities\\Entities.csproj"
+            "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Entities\\Entities.csproj"
             }
           }
         }

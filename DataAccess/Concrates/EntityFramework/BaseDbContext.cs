@@ -1,4 +1,5 @@
-﻿using Entities;
+﻿using Core.Entities;
+using Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrates.EntityFramework
@@ -8,6 +9,8 @@ namespace DataAccess.Concrates.EntityFramework
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -17,6 +20,10 @@ namespace DataAccess.Concrates.EntityFramework
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<User>().ToTable("users");
+            //modelBuilder.Entity<UserOperationClaim>() 
+
+
             // Category için birincil anahtar tanımı
             modelBuilder.Entity<Category>().HasKey(c => c.Id);
 
@@ -39,6 +46,6 @@ namespace DataAccess.Concrates.EntityFramework
             base.OnModelCreating(modelBuilder);
         }
 
-            
+
     }
 }

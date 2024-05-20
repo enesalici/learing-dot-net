@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MtekzeV/x8NK314XR5Ti6cTCEAfamg1lbMXsgXKZgyeFevZgE4KAODOlyVPDnc43xggMOLamw3DUFvH8hrYS/Q==",
+  "dgSpecHash": "bkrc3FDdRREBaaAYrtTDzQrKxJ9YXde7WWc1NbmQWB5OJGAwT7pbt/cNMkCT3WgmFfq141ot3htCV3w3L4wpSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vayne\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Core",
+    "\\Core\\Utilities",
+    "\\Core\\Utilities\\Hashing"
   ],
+  "SelectedNode": "\\Core\\Utilities\\Hashing\\HashingHelper.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -11,3 +11,16 @@ C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Core\obj\Debug\net8.0\Core.
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Core\obj\Debug\net8.0\refint\Core.dll
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Core\obj\Debug\net8.0\Core.pdb
 C:\Users\vayne\OneDrive\Masaüstü\my-dotnet-project\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\bin\Debug\net8.0\Core.dll
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\Core.sourcelink.json
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\Core.dll
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\vayne\OneDrive\Masaüstü\learning-dotnet\Core\obj\Debug\net8.0\ref\Core.dll

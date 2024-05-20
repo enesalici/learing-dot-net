@@ -34,7 +34,6 @@ namespace Business.Feature.Products.Commands.Create
 
              public async Task<CreateProductResponse> Handle(CreateProductCommand request, CancellationToken cancellationToken)
             {
-                
 
                 Product? productWithSameName = await _productRepository.GetAsync(p => p.Name == request.Name);
                 if (productWithSameName is not null)

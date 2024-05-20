@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/LxmKigAhrO94J7VA2npFAtmxq+uX/lmXN57H34JeZ37QGTliSkCt8T8NDwu5RuSv7yMEKNXYnXxUbCy3FfETQ==",
+  "dgSpecHash": "alfBCExH8MCq1evJmEfzPqIdR3ga7ek8r+cVmrpjO/Qufe1rvvGcaGQiA9VTVEKKi1+0Yie6nn6tkbZkF6hW4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vayne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

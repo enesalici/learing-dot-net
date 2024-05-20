@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7unWnVLvrxfvah35HcpozKkbvoKuNTPaAvsLhqNsAfGKYtmx94RmjC22yPEojkPeYmKqA8jMF85FT9eFW/ZLvA==",
+  "dgSpecHash": "hUKz5n78EZP+ep2dXdim1HI7w20YdQ1TgUa+uoWSD7FgxpXcDEpkoSjkqM/zkM3sbSqZMV6j5P9Wi38rTkwIqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\my-dotnet-project\\App\\Business.csproj",
+  "projectFilePath": "C:\\Users\\vayne\\OneDrive\\Masaüstü\\learning-dotnet\\App\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vayne\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\vayne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

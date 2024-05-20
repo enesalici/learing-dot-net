@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Business.Feature.Products.Dtos;
+using Core.Application.Pipelines.Authorization;
 using Core.CrossCuttingConcerns.Exceptions.Types;
 using DataAccess.Abstracts;
 using Entities;
