@@ -9,10 +9,14 @@ namespace DataAccess
     {
         public static IServiceCollection AddDataAccessServices(this IServiceCollection services)
         {
+            //bağımlılıklar
             services.AddScoped<IProductRepository, EfProductRepository>();
             services.AddScoped<ICategoryRepository, EfCategoryRepository>();
             services.AddScoped<IUserRepository, EfUserRepository>();
-            //database
+            services.AddScoped<IOperationClaimRepository, EfOperationClaimRepository>();
+            services.AddScoped<IUserOperationClaimRepository, EfUserOperationClaimRepository>();
+
+            //database context
             services.AddDbContext<BaseDbContext>();
             
             return services;
