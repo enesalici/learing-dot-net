@@ -75,5 +75,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-// Commit && push deneme
